@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask-api-investment-simulator"
+version = "0.1.0"
+description = ""
+authors = ["Rhuan Kowic Santos <dev.rhuankowic@gmail.com>"]
+license = "MIT LICENSE"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
